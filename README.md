@@ -9,9 +9,7 @@ When I use Vue, [webpack](https://github.com/vuejs-templates/webpack) is a good 
 * [vue-templates/wepback](https://github.com/vuejs-templates/webpack)
 * [create-react-app](https://github.com/facebook/create-react-app)
 
-## Devolopement Process
-
-### Create Base Files
+## Usage
 
 Do this command:
 
@@ -21,4 +19,13 @@ $ npm install
 $ npm run dev
 
 $ npm run build
+```
+
+## Devolopement Process
+
+### Create Base Files
+
+Do this command:
+
+```bash
 ```
