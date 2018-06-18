@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+package-lock.json
+
+
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
