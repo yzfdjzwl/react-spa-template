@@ -14,10 +14,13 @@ When I use Vue, [webpack](https://github.com/vuejs-templates/webpack) is a good 
 Do this command:
 
 ```bash
+# install dependences
 $ npm install
 
+# dev run
 $ npm run dev
 
+# production run
 $ npm run build
 ```
 
@@ -25,7 +28,32 @@ $ npm run build
 
 ### Create Base Files
 
-Do this command:
+New some base files, so your directory will like this:
 
-```bash
+```
+├── build
+│   ├── build.js
+│   ├── webpack.base.conf.js
+│   ├── webpack.dev.conf.js
+│   └── webpack.prod.conf.js
+├── config
+│   ├── dev.env.js
+│   ├── index.js
+│   └── prod.env.js
+├── index.html
+├── package.json
+└── src
+    ├── common
+    ├── components
+    ├── containers
+    │   └── Demo
+    │       ├── actionTypes.js
+    │       ├── actions.js
+    │       ├── index.css
+    │       ├── index.js
+    │       └── reducer.js
+    ├── index.js
+    ├── reducers.js
+    ├── routes.js
+    └── utils
 ```
