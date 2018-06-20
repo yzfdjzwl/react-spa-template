@@ -57,3 +57,15 @@ New some base files, so your directory will like this:
     ├── routes.js
     └── utils
 ```
+
+### Install webpack
+
+```bash
+npm install --save-dev webpack webpack-dev-server
+```
+
+### Install babel
+
+```bash
+npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+```
