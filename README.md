@@ -61,13 +61,35 @@ New some base files, so your directory will like this:
 ### Install webpack
 
 ```bash
-npm install --save-dev webpack webpack-dev-server
+$ npm install --save-dev webpack webpack-dev-server
 ```
 
 ### Install babel
 
 ```bash
-npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+$ npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0
+
+$ vim .babelrc
 ```
 
-### Install
+Write the following into `.babelrc`
+
+```json
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": []
+}
+```
+
+
+### Install React
+
+```bash
+$ npm install --save react react-dom
+```
+
+At this point, we can test our project.
